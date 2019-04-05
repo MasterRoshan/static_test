@@ -1,0 +1,13 @@
+{
+  "name": "Theme Test",
+  "version": "1.0",
+  "description": "Build an Extension!",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+        "matches": ["https://example.com/*"],
+        "js": ["jquery-3.3.1.slim.min.js", "background.js"]
+    }
+  ],
+  "manifest_version": 2
+}
